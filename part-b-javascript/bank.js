@@ -1,6 +1,5 @@
 "use strict";
 function parseAmount(input) {
-  // Step 1: for finding undefined and null values
   if (input === null || input === undefined) {
     throw new Error("Amount is required.");
   }
